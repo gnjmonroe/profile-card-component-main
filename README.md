@@ -32,8 +32,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: [GitHub](https://your-solution-url.com)
-- Live Site URL: [Live Site](https://your-live-site-url.com)
+- Solution URL: [GitHub](https://github.com/gnjmonroe/profile-card-component-main)
+- Live Site URL: [Live Site](https://gnjmonroe.github.io/profile-card-component-main/)
 
 ## My Process
 
