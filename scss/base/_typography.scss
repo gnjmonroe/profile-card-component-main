@@ -1,0 +1,42 @@
+@use '../abstracts/variables';
+
+.kumbh-400 {
+  font: {
+    family: variables.$kumbh;
+    weight: 400;
+  }
+}
+.kumbh-700 {
+  font: {
+    family: variables.$kumbh;
+    weight: 700;
+  }
+}
+
+p {
+  font-size: 18px;
+}
+
+.card__header {
+  font-size: 1.125rem;
+  line-height: 1;
+  &--age {
+    font-size: 1.125rem;
+    line-height: 1;
+  }
+  &--location {
+    font-size: 0.875rem;
+    line-height: 1;
+  }
+}
+
+.card__stat {
+  font-size: 1.125rem;
+  line-height: 1;
+}
+
+.card__stat--label {
+  font-size: 0.625rem;
+  letter-spacing: 0.15em;
+  line-height: 1;
+}

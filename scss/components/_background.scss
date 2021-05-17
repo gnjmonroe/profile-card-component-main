@@ -1,0 +1,17 @@
+@use '../abstracts/variables';
+
+.background {
+  background-image: url(images/bg-pattern-top.svg),
+    url(images/bg-pattern-bottom.svg);
+  background-size: 616px, 616px;
+  background-position: -403px -358px, 165px 358px;
+  background-repeat: no-repeat;
+  background-color: variables.$primary-1;
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  @media (min-width: 1440px) {
+    background-size: 978px, 978px;
+    background-position: -281px -515px, 693px 375px;
+  }
+}
